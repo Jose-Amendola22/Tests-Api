@@ -5,7 +5,7 @@ import os
 # Esto se usa para poder usarse en docker, normalmente sólo la url normal basta
 BASE_URL = os.getenv('BASE_URL', 'http://backend:8888')  
 
-#Task que usaremos como prueba
+#Task que usaremos como prueba!
 sample_task = {
     'title': 'Sample Task',
     'description': 'This is a sample task.',
